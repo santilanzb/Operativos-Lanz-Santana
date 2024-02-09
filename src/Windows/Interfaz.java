@@ -129,6 +129,36 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel62 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel90 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -705,22 +735,128 @@ public class Interfaz extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Disney Channel", jPanel6);
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesPNG/image (2).png"))); // NOI18N
+        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+        jLabel63.setText("0");
+        jPanel7.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 240, -1, -1));
+
+        jLabel64.setText("0");
+        jPanel7.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 320, 10, -1));
+
+        jLabel65.setText("0");
+        jPanel7.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 280, -1, -1));
+
+        jLabel66.setText("Plot Twists en drive:");
+        jPanel7.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 280, -1, -1));
+
+        jLabel67.setText("Capitulos con Plot Twist:");
+        jPanel7.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 480, -1, -1));
+
+        jLabel68.setText("Escenarios en drive:");
+        jPanel7.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 360, -1, -1));
+
+        jLabel69.setText("0");
+        jPanel7.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, -1, -1));
+
+        jLabel70.setText("Capitulos normales hechos:");
+        jPanel7.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 440, -1, -1));
+
+        jLabel71.setText("Guiones en drive");
+        jPanel7.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 200, -1, -1));
+
+        jLabel72.setText("Doblajes en drive:");
+        jPanel7.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 320, -1, -1));
+
+        jLabel73.setText("Animaciones en drive:");
+        jPanel7.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 240, -1, -1));
+
+        jLabel74.setText("0");
+        jPanel7.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 360, -1, -1));
+
+        jLabel75.setText("0");
+        jPanel7.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 440, -1, -1));
+
+        jLabel76.setText("0");
+        jPanel7.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, -1, -1));
+
+        jLabel77.setText("Ganancias:");
+        jPanel7.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 270, -1, -1));
+
+        jLabel78.setText("Utilidades:");
+        jPanel7.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 300, -1, -1));
+
+        jLabel79.setText("Costos:");
+        jPanel7.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 330, -1, -1));
+
+        jLabel80.setText("Totales:");
+        jPanel7.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 230, -1, -1));
+
+        jLabel81.setText("Dias transcurridos:");
+        jPanel7.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 380, -1, -1));
+
+        jLabel82.setText("Dinero descontado al PM:");
+        jPanel7.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 410, -1, -1));
+
+        jLabel83.setText("Deadline:");
+        jPanel7.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 440, -1, -1));
+
+        jLabel84.setText("0");
+        jPanel7.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 270, -1, -1));
+
+        jLabel85.setText("0");
+        jPanel7.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 300, -1, -1));
+
+        jLabel86.setText("0");
+        jPanel7.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 330, -1, -1));
+
+        jLabel87.setText("0");
+        jPanel7.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 380, -1, -1));
+
+        jLabel88.setText("0");
+        jPanel7.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 410, -1, -1));
+
+        jLabel89.setText("0");
+        jPanel7.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 440, -1, -1));
+
+        jPanel9.setBackground(new java.awt.Color(51, 51, 51));
+        jPanel9.setBorder(new javax.swing.border.MatteBorder(null));
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 258, Short.MAX_VALUE)
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, 894, Short.MAX_VALUE)
-                .addContainerGap())
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 328, Short.MAX_VALUE)
         );
+
+        jPanel7.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 180, 260, 330));
+
+        jPanel10.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel10.setBorder(new javax.swing.border.MatteBorder(null));
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 248, Short.MAX_VALUE)
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 368, Short.MAX_VALUE)
+        );
+
+        jPanel7.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 160, 250, 370));
+
+        jLabel90.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
+        jLabel90.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel90.setText("Cartoon Network");
+        jPanel7.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 60, 370, 60));
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ImagenesPNG/image (2).png"))); // NOI18N
+        jPanel7.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, -1, 894));
 
         jTabbedPane2.addTab("Cartoon Network", jPanel7);
 
@@ -967,10 +1103,39 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -978,6 +1143,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane2;
     // End of variables declaration//GEN-END:variables
     
