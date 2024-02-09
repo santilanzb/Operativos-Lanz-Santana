@@ -867,115 +867,143 @@ public class Interfaz extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel7.getText())+1;
+            jLabel7.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel17.getText())-1;
+            jLabel17.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel17.getText())+1;
+            jLabel17.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        // TODO add your handling code here:
+       int nuevo = Integer.parseInt(jLabel16.getText())-1;
+            jLabel16.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        // TODO add your handling code here:
+       int nuevo = Integer.parseInt(jLabel16.getText())+1;
+            jLabel16.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel12.getText())-1;
+            jLabel12.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel12.getText())+1;
+            jLabel12.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel8.getText())+1;
+            jLabel8.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel12.getText())+1;
+            jLabel11.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel10.getText())+1;
+            jLabel10.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
+       int nuevo = Integer.parseInt(jLabel11.getText())-1;
+            jLabel11.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel10.getText())-1;
+            jLabel10.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel9.getText())-1;
+            jLabel9.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel9.getText())+1;
+            jLabel9.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel8.getText())-1;
+            jLabel8.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel7.getText())-1;
+            jLabel7.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
-        // TODO add your handling code here:
+       int nuevo = Integer.parseInt(jLabel42.getText())-1;
+            jLabel42.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel43.getText())-1;
+            jLabel43.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton34ActionPerformed
 
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel44.getText())+1;
+            jLabel44.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton35ActionPerformed
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel44.getText())-1;
+            jLabel44.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton36ActionPerformed
 
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel45.getText())-1;
+            jLabel45.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton37ActionPerformed
 
     private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel46.getText())-1;
+            jLabel46.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton38ActionPerformed
 
     private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel45.getText())+1;
+            jLabel45.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton39ActionPerformed
 
     private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel46.getText())+1;
+            jLabel46.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton40ActionPerformed
 
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
-        // TODO add your handling code here:
+       int nuevo = Integer.parseInt(jLabel43.getText())+1;
+            jLabel43.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton41ActionPerformed
 
     private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel47.getText())+1;
+            jLabel47.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton42ActionPerformed
 
     private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel47.getText())-1;
+            jLabel47.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton43ActionPerformed
 
     private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel42.getText())+1;
+            jLabel42.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton44ActionPerformed
 
     /**
