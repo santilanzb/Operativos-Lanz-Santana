@@ -50,7 +50,12 @@ public class Interfaz extends javax.swing.JFrame {
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
+<<<<<<< HEAD
+        jButton12 = new javax.swing.JButton();
+        numGuionistas = new javax.swing.JLabel();
+=======
         jLabel7 = new javax.swing.JLabel();
+>>>>>>> 3877a2e1a1073467e74940ff1176caf609f5e46a
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
@@ -280,9 +285,32 @@ public class Interfaz extends javax.swing.JFrame {
         });
         jPanel3.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 540, 35, -1));
 
+<<<<<<< HEAD
+        jButton12.setText("+");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanel3.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 480, -1, -1));
+
+        numGuionistas.setForeground(new java.awt.Color(0, 0, 0));
+        numGuionistas.setText("0");
+        numGuionistas.addAncestorListener(new javax.swing.event.AncestorListener() {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+                numGuionistasAncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            }
+        });
+        jPanel3.add(numGuionistas, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 200, 13, -1));
+=======
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("0");
         jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 200, 13, -1));
+>>>>>>> 3877a2e1a1073467e74940ff1176caf609f5e46a
 
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("0");
@@ -702,15 +730,34 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
+            .addGap(0, 1030, Short.MAX_VALUE)
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 770, Short.MAX_VALUE)
+=======
             .addGap(0, 258, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 328, Short.MAX_VALUE)
+>>>>>>> 3877a2e1a1073467e74940ff1176caf609f5e46a
         );
 
         jPanel6.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 180, 260, 330));
 
+<<<<<<< HEAD
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1030, Short.MAX_VALUE)
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 770, Short.MAX_VALUE)
+=======
         jPanel8.setBackground(new java.awt.Color(153, 153, 0));
         jPanel8.setBorder(new javax.swing.border.MatteBorder(null));
 
@@ -723,10 +770,22 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 368, Short.MAX_VALUE)
+>>>>>>> 3877a2e1a1073467e74940ff1176caf609f5e46a
         );
 
         jPanel6.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 160, 250, 370));
 
+<<<<<<< HEAD
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1030, Short.MAX_VALUE)
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 770, Short.MAX_VALUE)
+=======
         jLabel62.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
         jLabel62.setText("DISNEY");
         jPanel6.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 30, 210, 100));
@@ -831,6 +890,7 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 328, Short.MAX_VALUE)
+>>>>>>> 3877a2e1a1073467e74940ff1176caf609f5e46a
         );
 
         jPanel7.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 180, 260, 330));
@@ -866,116 +926,148 @@ public class Interfaz extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(numGuionistas.getText()) + 1;
+        numGuionistas.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel17.getText()) - 1;
+        jLabel17.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel17.getText()) + 1;
+        jLabel17.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel16.getText()) - 1;
+        jLabel16.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel16.getText()) + 1;
+        jLabel16.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel12.getText()) - 1;
+        jLabel12.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel12.getText()) + 1;
+        jLabel12.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel8.getText()) + 1;
+        jLabel8.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel11.getText()) + 1;
+        jLabel11.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel10.getText()) + 1;
+        jLabel10.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel11.getText()) - 1;
+        jLabel11.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel10.getText()) - 1;
+        jLabel10.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel9.getText()) - 1;
+        jLabel9.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel9.getText()) + 1;
+        jLabel9.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel8.getText()) - 1;
+        jLabel8.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(numGuionistas.getText()) - 1;
+        numGuionistas.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel42.getText()) - 1;
+        jLabel42.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel43.getText()) - 1;
+        jLabel43.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton34ActionPerformed
 
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel44.getText()) + 1;
+        jLabel44.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton35ActionPerformed
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel44.getText()) - 1;
+        jLabel44.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton36ActionPerformed
 
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel45.getText()) - 1;
+        jLabel45.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton37ActionPerformed
 
     private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel46.getText()) - 1;
+        jLabel46.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton38ActionPerformed
 
     private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel45.getText()) + 1;
+        jLabel45.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton39ActionPerformed
 
     private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel46.getText()) + 1;
+        jLabel46.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton40ActionPerformed
 
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel43.getText()) + 1;
+        jLabel43.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton41ActionPerformed
 
     private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel47.getText()) + 1;
+        jLabel47.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton42ActionPerformed
 
     private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel47.getText()) - 1;
+        jLabel47.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton43ActionPerformed
 
     private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
-        // TODO add your handling code here:
+        int nuevo = Integer.parseInt(jLabel42.getText()) + 1;
+        jLabel42.setText(String.valueOf(nuevo));
     }//GEN-LAST:event_jButton44ActionPerformed
+
+    private void numGuionistasAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_numGuionistasAncestorAdded
+        
+    }//GEN-LAST:event_numGuionistasAncestorAdded
 
     /**
      * @param args the command line arguments
@@ -1100,6 +1192,8 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+<<<<<<< HEAD
+=======
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel62;
@@ -1121,6 +1215,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
     private javax.swing.JLabel jLabel79;
+>>>>>>> 3877a2e1a1073467e74940ff1176caf609f5e46a
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel81;
@@ -1145,6 +1240,13 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane2;
+<<<<<<< HEAD
+    private javax.swing.JTextArea jTextArea11;
+    private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JLabel numGuionistas;
+=======
+>>>>>>> 3877a2e1a1073467e74940ff1176caf609f5e46a
     // End of variables declaration//GEN-END:variables
     
             

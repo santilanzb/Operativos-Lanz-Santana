@@ -14,6 +14,7 @@ public class ProjectManager {
     private static int cuentaRegresiva;
     
     
+    
     public void ContadorEntrega(int deadline){
         while(deadline > 0 ){
         int contador = deadline;    
@@ -27,6 +28,14 @@ public class ProjectManager {
         } ContadorEntrega(deadline); 
     }
     
+    public void Anime(){
+        if (ContadorTiempo.getMinutosTranscurridos()%30 ==0){
+            System.out.println("El Proyect Manager esta viendo anime");
+        } else {
+            System.out.println("El Proyect Manager esta revisando el avance del proyecto");
+        }
+    }
+            
     public static int RegistrarDias(){
         return ContadorTiempo.getdiasTranscurridos();
     }
