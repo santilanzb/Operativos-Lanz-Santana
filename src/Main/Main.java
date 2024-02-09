@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Main;
+import Functions.ContadorTiempo;
+import Windows.Interfaz;
 
 /**
  *
@@ -12,6 +14,10 @@ public class Main {
     
     public static void main(String[] args){
         
+        Interfaz fw = new Interfaz();
+        fw.setVisible(true);
+        fw.setLocationRelativeTo(null);
         
+        ContadorTiempo.iniciarContador(Interfaz.ReturnTime());
     }
 }

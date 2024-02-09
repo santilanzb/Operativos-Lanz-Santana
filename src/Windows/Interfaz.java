@@ -26,7 +26,12 @@ import Functions.ContadorTiempo;
  */
 public class Interfaz extends javax.swing.JFrame {
     
+    public static int time;
     
+    
+    public static int ReturnTime(){
+        return time;
+    }
     
     public Interfaz() {
         
@@ -56,6 +61,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel89.setText(jLabel17.getText());
         jLabel84.setText(String.valueOf(Director.getTotal()));
         
+        time = Integer.parseInt(jLabel16.getText());
         
     }
 
@@ -568,7 +574,7 @@ public class Interfaz extends javax.swing.JFrame {
         });
 
         jLabel16.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel16.setText("0");
+        jLabel16.setText("6");
 
         jButton14.setText("+");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -585,7 +591,7 @@ public class Interfaz extends javax.swing.JFrame {
         });
 
         jLabel17.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel17.setText("0");
+        jLabel17.setText("5");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);

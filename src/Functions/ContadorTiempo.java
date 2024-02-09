@@ -15,9 +15,13 @@ public class ContadorTiempo {
     private static int horasTranscurridas = 0;
 
 
-    private static void iniciarContador(int time) {
+    public static void iniciarContador(int time) {
         // Bucle infinito para simular el tiempo transcurrido
-        while (true) {
+        if (time == 0) {
+        System.out.println("El tiempo no puede ser cero.");
+        return; // Salir de la función si time es cero
+        
+    }   while (true) {
             try {
                 // Dormir el hilo durante un segundo
                 Thread.sleep(1000);
