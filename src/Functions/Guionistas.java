@@ -9,5 +9,7 @@ package Functions;
  * @author santi
  */
 public class Guionistas {
+    int salary = 20;
     
+            
 }
