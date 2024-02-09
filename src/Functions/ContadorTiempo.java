@@ -13,6 +13,7 @@ public class ContadorTiempo {
     private static int segundos = 0;
     private static int diasTranscurridos = 0;
     private static int horasTranscurridas = 0;
+    private static int minTranscurridos = 0;
 
 
     private static void iniciarContador(int time) {
@@ -40,6 +41,10 @@ public class ContadorTiempo {
         }
     }
     
+    public void MinutosTranscurridos(int time){
+        minTranscurridos = (30 * time)/60;
+    }
+    
     public void HorasTranscurridas(int time){
         horasTranscurridas = (time)/ 24;
     }
@@ -55,6 +60,10 @@ public class ContadorTiempo {
     
     public static int getHorasTranscurridas(){
         return horasTranscurridas;
+    }
+    
+    public static int getMinutosTranscurridos(){
+        return minTranscurridos;
     }
 }
 
