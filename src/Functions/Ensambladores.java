@@ -83,7 +83,7 @@ public class Ensambladores {
         return capituloNormalCartoon;
     }
     
-    public static int capituloPlotTwistCartoon(){
+    public static int getcapituloPlotTwistCartoon(){
         return capituloPlotTwistCartoon;
     }
     
@@ -91,7 +91,7 @@ public class Ensambladores {
         return capituloNormalDisney;
     }
     
-    public static int capituloPlotTwistDisney(){
+    public static int getcapituloPlotTwistDisney(){
         return capituloPlotTwistDisney;
     }
 }
