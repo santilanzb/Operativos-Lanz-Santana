@@ -49,11 +49,11 @@ public class ContadorTiempo {
         return segundos;
     }
     
-    public static int diasTranscurridos(){
+    public static int getdiasTranscurridos(){
         return diasTranscurridos ;
     }
     
-    public static int HorasTranscurridas(){
+    public static int getHorasTranscurridas(){
         return horasTranscurridas;
     }
 }
