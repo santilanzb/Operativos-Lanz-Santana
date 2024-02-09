@@ -12,14 +12,14 @@ public class Guionistas {
     private int tarifaHora = 20;
     private int capacidadDrive = 25;
     private int guionesGenerados;
-    private int horasTrabajadas;
+    private static int pagoHora;
 
     // Constructor
     public Guionistas( int tarifaHora, int capacidadDrive) {
         this.tarifaHora = tarifaHora;
         this.capacidadDrive = capacidadDrive;
         this.guionesGenerados = 0;
-        this.horasTrabajadas = 0;
+        this.pagoHora = 0;
     }
 
     // Función para generar guiones según el intervalo
@@ -27,21 +27,24 @@ public class Guionistas {
         if (IsDrivelleno()) {
             System.out.println("Se ha alcanzado la capacidad maxima en el drive");
             }else{
-                guionesGenerados++;
+                if (ContadorTiempo.getdiasTranscurridos() % 2 == 0){
+                     guionesGenerados++;
+                }
             }
     }
 
     // Función para calcular el pago del guionista por hora trabajada
     public void calcularPagoHora() {
-        
+        pagoHora = tarifaHora * ContadorTiempo.getHorasTranscurridas();
     }
 
     // Función para registrar las horas trabajadas por el guionista
-    public void registrarHorasTrabajadas(int horas) {
-        horasTrabajadas += horas;
-    }
+
     public boolean IsDrivelleno(){
         return guionesGenerados >= capacidadDrive;
+    }
+    public static int getpagoHora(){
+        return pagoHora;
     }
 }
             
