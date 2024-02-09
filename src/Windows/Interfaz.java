@@ -10,18 +10,53 @@ import static java.awt.SystemColor.text;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import Functions.Guionistas;
+import Functions.AnimadorPersonajes;
+import Functions.ActoresDoblaje;
+import Functions.Director;
+import Functions.DisenadorEscenarios;
+import Functions.Ensambladores;
+import Functions.GuionistasPlotTwist;
+import Functions.ProjectManager;
+import Functions.ContadorTiempo;
+
 
 /**
  *
  * @author Abraham Santana
  */
 public class Interfaz extends javax.swing.JFrame {
-        
+    
     
     
     public Interfaz() {
         
         initComponents();
+        //Disney
+        
+        jLabel29.setText(String.valueOf(Guionistas.getguionesGenerados()));
+        jLabel28.setText(String.valueOf(AnimadorPersonajes.getanimacionesGenerados()));
+        jLabel31.setText(String.valueOf(ActoresDoblaje.getdoblajesGenerados()));
+        jLabel30.setText(String.valueOf(GuionistasPlotTwist.getplotTwistGenerados()));
+        jLabel32.setText(String.valueOf(DisenadorEscenarios.getescenariosGenerados()));
+        jLabel33.setText(String.valueOf(Ensambladores.getcapituloNormalDisney())); 
+        jLabel35.setText(String.valueOf(Ensambladores.getcapituloPlotTwistDisney()));
+        jLabel59.setText(String.valueOf(ContadorTiempo.getdiasTranscurridos()));
+        jLabel61.setText(jLabel17.getText());
+        jLabel56.setText(String.valueOf(Director.getTotal()));
+        
+        //Cartoon
+        jLabel69.setText(String.valueOf(Guionistas.getguionesGenerados()));
+        jLabel63.setText(String.valueOf(AnimadorPersonajes.getanimacionesGenerados()));
+        jLabel64.setText(String.valueOf(ActoresDoblaje.getdoblajesGenerados()));
+        jLabel65.setText(String.valueOf(GuionistasPlotTwist.getplotTwistGenerados()));
+        jLabel74.setText(String.valueOf(DisenadorEscenarios.getescenariosGenerados()));
+        jLabel75.setText(String.valueOf(Ensambladores.getcapituloNormalCartoon())); 
+        jLabel76.setText(String.valueOf(Ensambladores.getcapituloPlotTwistCartoon()));
+        jLabel87.setText(String.valueOf(ContadorTiempo.getdiasTranscurridos()));
+        jLabel89.setText(jLabel17.getText());
+        jLabel84.setText(String.valueOf(Director.getTotal()));
+        
+        
     }
 
     /**
