@@ -6,8 +6,10 @@ package Windows;
 
 import java.awt.Graphics;
 import java.awt.Image;
+import static java.awt.SystemColor.text;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
+import Functions.Guionistas;
 
 /**
  *
