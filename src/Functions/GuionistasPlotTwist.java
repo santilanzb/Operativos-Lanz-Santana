@@ -11,7 +11,7 @@ package Functions;
 public class GuionistasPlotTwist {
      private int tarifaHora = 16;
     private int capacidadDrive = 35;
-    private int plotTwistGenerados;
+    private static int plotTwistGenerados;
     private static int pagoHora;
 
     // Constructor
@@ -45,5 +45,8 @@ public class GuionistasPlotTwist {
     }
     public static int getpagoHora(){
         return pagoHora;
+    }
+    public static int getplotTwistGenerados(){
+        return plotTwistGenerados;
     }
 }

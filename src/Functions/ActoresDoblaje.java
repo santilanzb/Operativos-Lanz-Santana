@@ -9,9 +9,9 @@ package Functions;
  * @author santi
  */
 public class ActoresDoblaje {
-     private int tarifaHora = 16;
+    private int tarifaHora = 16;
     private int capacidadDrive = 35;
-    private int doblajesGenerados;
+    private static int doblajesGenerados;
     private static int pagoHora;
 
     // Constructor
@@ -47,5 +47,9 @@ public class ActoresDoblaje {
     }
     public static int getpagoHora(){
         return pagoHora;
+    }
+    
+    public static int getdoblajesGenerados(){
+        return doblajesGenerados;
     }
 }

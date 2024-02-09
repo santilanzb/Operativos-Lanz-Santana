@@ -11,7 +11,7 @@ package Functions;
 public class Guionistas {
     private int tarifaHora = 20;
     private int capacidadDrive = 25;
-    private int guionesGenerados;
+    private static int guionesGenerados;
     private static int pagoHora;
 
     // Constructor
@@ -45,6 +45,9 @@ public class Guionistas {
     }
     public static int getpagoHora(){
         return pagoHora;
+    }
+    public static int getguionesGenerados(){
+        return guionesGenerados;
     }
 }
             

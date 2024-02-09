@@ -11,7 +11,7 @@ package Functions;
 public class DisenadorEscenarios {
     private int tarifaHora = 26;
     private int capacidadDrive = 20;
-    private int escenariosGenerados;
+    private static int escenariosGenerados;
     private static int pagoHora;
 
     // Constructor
@@ -43,5 +43,8 @@ public class DisenadorEscenarios {
     }
     public static int getpagoHora(){
         return pagoHora;
+    }
+    public static int getescenariosGenerados(){
+        return escenariosGenerados;
     }
 }
