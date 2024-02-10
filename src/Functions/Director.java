@@ -15,7 +15,8 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author fabriziospiotta
+ * @author santi
+ *
  */
 public class Director extends Thread{
     
