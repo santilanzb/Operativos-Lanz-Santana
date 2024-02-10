@@ -10,10 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author fabriziospiotta
- */
+
 public class Worker extends Thread{
     
     private int type;

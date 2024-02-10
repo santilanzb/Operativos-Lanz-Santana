@@ -5,10 +5,7 @@ import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author mariv
- */
+
 public class Assembler extends Thread{
     private float salaryAcumulate;
     private int dayDuration;

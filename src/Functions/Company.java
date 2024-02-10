@@ -12,10 +12,7 @@ import java.util.logging.Logger;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author fabriziospiotta
- */
+
 public class Company extends Thread{
         
     private Worker guionistas;

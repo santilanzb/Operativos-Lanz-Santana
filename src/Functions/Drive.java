@@ -6,10 +6,7 @@ package Functions;
 
 import javax.swing.JLabel;
 
-/**
- *
- * @author fabriziospiotta
- */
+
 public class Drive {
     
     private int guiones;
