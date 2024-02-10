@@ -4,7 +4,7 @@
  */
 package Functions;
 
-import Interfaces.MainInterface;
+import Windows.MainInterface;
 import static java.lang.Thread.sleep;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Level;
