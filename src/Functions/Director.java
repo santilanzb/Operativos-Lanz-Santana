@@ -4,6 +4,10 @@
  */
 package Functions;
 
+import static java.lang.Thread.sleep;
+import java.util.concurrent.Semaphore;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 /**
  *
  * @author santi
@@ -75,3 +79,7 @@ public class Director {
         return Total;
     }
 }
+
+
+
+

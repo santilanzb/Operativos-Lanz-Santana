@@ -4,11 +4,15 @@
  */
 package Functions;
 
+import static java.lang.Thread.sleep;
+import java.util.concurrent.Semaphore;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 /**
  *
  * @author Abraham Santana
  */
-public class ContadorTiempo {
+public class ContadorTiempo extends Thread {
 
     private static int segundos = 0;
     private static int diasTranscurridos = 0;
