@@ -54,12 +54,7 @@ public class MainInterface extends javax.swing.JFrame {
         cartoonnetwork.startEmployees();
         disney.startEmployees();
         
-        this.qttyGuionistasCN.setText(String.valueOf(initialQuantitiesN[0]));
-        this.qttyEscenariosCN.setText(String.valueOf(initialQuantitiesN[1]));
-        this.qttyAnimadoresCN.setText(String.valueOf(initialQuantitiesN[2]));
-        this.qttyDobladoresCN.setText(String.valueOf(initialQuantitiesN[3]));
-        this.qttyGuionistasPlotTwistsCN.setText(String.valueOf(initialQuantitiesN[4]));
-        this.qttyEnsambladoresCN.setText(String.valueOf(initialQuantitiesN[5]));
+        
         
         this.GuionistasNick.setText(String.valueOf(initialQuantitiesN[0]));
         this.EscenariosNick.setText(String.valueOf(initialQuantitiesN[1]));
@@ -67,13 +62,6 @@ public class MainInterface extends javax.swing.JFrame {
         this.DobladoresNick.setText(String.valueOf(initialQuantitiesN[3]));
         this.GuionistasPlotTwistsNick.setText(String.valueOf(initialQuantitiesN[4]));
         this.EnsambladoresNick.setText(String.valueOf(initialQuantitiesN[5]));
-        
-        this.qttyGuionistasDisney.setText(String.valueOf(initialQuantitiesD[0]));
-        this.qttyEscenariosDisney.setText(String.valueOf(initialQuantitiesD[1]));
-        this.qttyAnimadoresDisney.setText(String.valueOf(initialQuantitiesD[2]));
-        this.qttyDobladoresDisney.setText(String.valueOf(initialQuantitiesD[3]));
-        this.qttyGuionistasPlotTwistsDisney.setText(String.valueOf(initialQuantitiesD[4]));
-        this.qttyEnsambladoresDisney.setText(String.valueOf(initialQuantitiesD[5]));
         
         this.GuionistasDisney.setText(String.valueOf(initialQuantitiesD[0]));
         this.EscenariosDisney.setText(String.valueOf(initialQuantitiesD[1]));
