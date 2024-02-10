@@ -13,10 +13,7 @@ import java.util.concurrent.Semaphore;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author fabriziospiotta
- */
+
 public class Main {
 
     /**
